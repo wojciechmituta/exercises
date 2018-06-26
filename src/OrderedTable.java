@@ -33,8 +33,8 @@ public class OrderedTable {
         return table;
     }
 
-    public int[] tableOrganizer(boolean asd) {
-        if (asd) {
+    public int[] tableOrganizer(boolean direction) {
+        if (direction) {
             return tableDescendingOrganizer();
         }
 
